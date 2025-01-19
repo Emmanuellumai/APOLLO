@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1>Welcome, {{ username }}!</h1>
+    <p>You have successfully logged in.</p>
+    <a href="/logout" class="btn btn-danger">Logout</a>
+</div>
+{% endblock %}
